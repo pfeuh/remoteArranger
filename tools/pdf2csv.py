@@ -1,0 +1,43 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import pdfplumber
+import pandas as pd
+
+# Chemin vers le PDF de la Data List du DGX-670
+pdf_path = "/mnt/Data1/Documents/pdf/yamaha/dgx670/dgx670_datalist.pdf"
+
+# Indique les numéros de page du PDF où commence et finit la liste des sons (Voices)
+# (Tu peux vérifier ces numéros dans le sommaire du PDF)
+start_page = 5   # Exemple, à adapter selon ton PDF
+end_page = 15    # Exemple, à adapter
+
+all_rows = []
+
+print("Extraction des données du PDF en cours...")
+with pdfplumber.open(pdf_path) as pdf:
+  for page_num in range(start_page - 1, end_page):
+    page = pdf.pages[page_num]
+    tables = page.extract_tables()
+    
+    for table in tables:
+      for row in table:
+        # Nettoyage basique pour enlever les lignes vides
+        if row and any(row):
+          # On fusionne ou nettoie les cellules si nécessaire
+          cleaned_row = [cell.strip() if cell else "" for cell in row]
+          all_rows.append(cleaned_row)
+
+# Transformation en DataFrame Pandas pour y voir clair
+# Les colonnes typiques chez Yamaha : [Category, Voice Name, MSB, LSB, PC, ...]
+df = pd.DataFrame(all_rows)
+
+# Supprimer les lignes d'en-tête répétées sur chaque nouvelle page
+df = df[~df.iloc[:, 0].str.contains("Voice Name|Category|Data List", na=False)]
+
+print(f"Extraction terminée ! {len(df)} lignes brutes trouvées.")
+print(df.head(10))
+
+# Sauvegarde dans un fichier CSV pour pouvoir le nettoyer/l'inspecter facilement
+df.to_csv("voices_extracted.csv", index=False, header=False)
+print("Sauvegardé dans 'voices_extracted.csv'")

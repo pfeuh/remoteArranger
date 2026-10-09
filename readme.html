@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cahier des Charges - Pipeline MuseScore vers Arrangeur MIDI</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; color: #333; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; border-bottom: 1px solid #ecf0f1; padding-bottom: 5px; }
+        h3 { color: #16a085; }
+        ul { margin-bottom: 20px; }
+        li { margin-bottom: 6px; }
+        hr { border: 0; height: 1px; background: #bdc3c7; margin: 30px 0; }
+    </style>
+</head>
+<body>
+
+    <h1>Cahier des Charges : Pipeline MuseScore vers Arrangeur MIDI</h1>
+
+    <h2>1. Objectif du Projet</h2>
+    <p>Établir un pipeline automatisé « one-click » permettant de convertir des partitions MuseScore (<code>.mscz</code>) en une lecture MIDI linéaire fluide, pilotant un clavier arrangeur Yamaha en temps réel. Le système doit gérer nativement la structure musicale complexe (répétitions, boîtes/voltas, sauts <em>Da Capo</em> / <em>Dal Segno</em>, codas) tout en garantissant une simplicité maximale d'exécution.</p>
+
+    <hr>
+
+    <h2>2. Architecture Globale (Le Pipeline en 3 Étapes)</h2>
+    <p>Le système repose sur une architecture découplée en trois modules indépendants :</p>
+
+    <h3>Étape 1 : L'Extraction (<code>ms2grid.py</code>)</h3>
+    <ul>
+        <li><strong>Rôle :</strong> Analyser le fichier source MuseScore (<code>.mscz</code> / <code>.mscx</code>).</li>
+        <li><strong>Fonctionnalités :</strong>
+            <ul>
+                <li>Extraction des métadonnées du header (titre, compositeur, etc.).</li>
+                <li>Parcours mesure par mesure pour extraire les accords (<code>Harmony</code>), les chiffrages de mesure (<code>timesig</code>), les barres de reprise (<code>BarLine</code>), les voltas, ainsi que les repères textuels et sauts (<code>Marker</code>, <code>Jump</code>, <code>system_texts</code>).</li>
+                <li>Génération d'un fichier <strong>JSON structuré et riche</strong> (<code>score.json</code>).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Étape 2 : La Compilation / Aplatissement (Le Compilateur)</h3>
+    <ul>
+        <li><strong>Rôle :</strong> Jouer le rôle de « GPS musical » hors-ligne.</li>
+        <li><strong>Fonctionnalités :</strong>
+            <ul>
+                <li>Prendre en entrée le JSON riche issu de l'étape 1.</li>
+                <li>Résoudre toute la logique de navigation (dérouler les boucles de reprises, alterner boîte 1 et boîte 2, interpréter les sauts <em>D.C.</em> / <em>D.S.</em> vers les repères <em>Segno</em> et <em>Coda</em>).</li>
+                <li>Générer une <strong>liste plate et chronologique</strong> d'accords purs avec leurs durées temporelles, en faisant le choix d'abandonner l'interactivité en direct au profit d'une simplicité et d'une robustesse absolues.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Étape 3 : La Lecture MIDI (<code>remotedArranger.py</code>)</h3>
+    <ul>
+        <li><strong>Rôle :</strong> Transmettre les flux MIDI au clavier arrangeur.</li>
+        <li><strong>Fonctionnalités :</strong>
+            <ul>
+                <li>Consommer la liste plate d'accords du début à la fin de manière strictement séquentielle.</li>
+                <li>Gérer le minutage précis selon le tempo (<code>BPM</code>) de la grille.</li>
+                <li>Envoyer les notes d'accord (<code>Note On</code> / <code>Note Off</code>) via la bibliothèque <code>rtmidi</code>.</li>
+                <li>Assurer une <strong>terminaison propre</strong> : en cas d'arrêt (manuel via le bouton de l'interface ou signal <code>SIGINT</code>), envoi d'un message <em>All Notes Off</em>, des codes de réinitialisation MIDI, du message <em>Transport Stop</em> (<code>0xFC</code>) et du SysEx d'arrêt propriétaire Yamaha pour stopper net l'arrangeur sans notes orphelines.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2>3. Interface Graphique et Ergonomie (<code>gridEditor.py</code>)</h2>
+    <ul>
+        <li>Un bouton unique intelligent <strong>"Play/Stop"</strong> qui pilote et suit l'état du sous-processus de lecture en temps réel (<code>root.after</code>).</li>
+        <li>Suppression de tous les popups superflus pour fluidifier l'expérience utilisateur.</li>
+        <li>Enregistrement automatique du dernier fichier ouvert (<code>lastFile.json</code>) pour un accès rapide.</li>
+    </ul>
+
+    <hr>
+
+    <h2>4. Résumé du Flux de Données (Workflow)</h2>
+    <ol>
+        <li><strong>Saisie visuelle</strong> de la partition dans <strong>MuseScore</strong> (<code>.mscz</code>).</li>
+        <li><strong>Extraction</strong> par <code>ms2grid.py</code> &rarr; JSON riche.</li>
+        <li><strong>Compilation</strong> par le module dédié &rarr; Liste plate d'accords séquentiels.</li>
+        <li><strong>Lecture</strong> par <code>remotedArranger.py</code> &rarr; Sortie MIDI vers le clavier arrangeur.</li>
+    </ol>
+
+</body>
+</html>

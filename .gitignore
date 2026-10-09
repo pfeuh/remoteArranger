@@ -1,0 +1,8 @@
+**/__pycache__/
+font/*.*
+grids/*.*
+pdf/*.*
+temp/*.*
+lastFile.json
+.grid_editor_config.json
+

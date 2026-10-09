@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualiseur de Police - HTML</title>
+    <style>
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('file:///mnt/Data1/Documents/sources/python/ms2Grid/scripts/font/MuseJazz.ttf') format('truetype');
+        }
+        body {
+            font-family: sans-serif;
+            background: #f0f2f5;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(16, 1fr);
+            gap: 10px;
+        }
+        .cell {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .glyph {
+            font-family: 'CustomFont', sans-serif;
+            font-size: 28px;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .code {
+            font-size: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualiseur de Police : MuseJazz.ttf</h1>
+    <p>Total de glyphes trouvés : 415</p>
+    <div class="grid">
+
+        <div class="cell">
+            <span class="glyph">♭</span>
+            <span class="code">U+266D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph">♮</span>
+            <span class="code">U+266E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph">♯</span>
+            <span class="code">U+266F</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E000</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E001</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E002</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E003</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E004</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E005</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E006</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E007</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E008</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E009</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E00B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E00C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E00D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E043</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E044</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E047</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E048</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E049</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E04A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E050</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E051</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E052</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E053</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E054</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E055</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E057</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E05C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E05D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E060</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E062</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E063</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E064</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E065</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E066</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E069</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E06A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E06D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E06E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E073</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E074</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E075</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E076</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E077</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E07A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E07B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E07C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E07D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E07E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E080</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E081</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E082</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E083</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E084</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E085</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E086</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E087</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E088</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E089</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E08A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E08B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E08C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E08D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E092</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E093</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E094</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E095</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E09C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0A9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0B0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0B1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0B2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0B3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0C3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0C4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0C5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0C7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0CE</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0D8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0D9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0DB</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0F5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E0F6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E101</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E102</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E103</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1B9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1BA</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1BB</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1BC</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1BD</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1BE</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1BF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1E7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E1FF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E202</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E220</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E221</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E222</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E223</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E224</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E225</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E226</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E227</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E228</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E229</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E22A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E22B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E240</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E241</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E242</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E243</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E244</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E245</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E246</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E247</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E248</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E249</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E24A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E24B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E24C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E24D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E24E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E24F</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E250</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E251</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E260</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E261</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E262</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E263</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E264</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E265</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E266</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E267</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E268</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E269</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E26A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E26B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E270</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E271</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E272</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E273</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E274</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E275</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E276</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E277</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E278</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E279</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E280</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E281</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E282</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E283</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E440</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E442</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E444</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E446</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E447</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E460</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E461</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4A7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4AC</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4AD</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4AE</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4AF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4B9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4BA</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4BB</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4BC</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4BD</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4C9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4CE</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4CF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4D0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4D1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4D2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4D3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4D4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4D5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4E9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4EA</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4EB</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4EC</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4ED</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4EE</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4EF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4F0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4F1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4F3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4F4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E4F5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E500</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E501</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E502</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E510</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E511</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E512</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E513</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E514</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E515</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E516</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E517</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E518</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E519</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E51A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E51B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E51C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E51D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E51E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E51F</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E520</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E521</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E522</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E523</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E524</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E525</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E526</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E527</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E528</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E529</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E52A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E52B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E52C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E52D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E52E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E52F</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E530</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E531</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E532</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E533</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E534</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E535</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E536</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E537</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E538</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E539</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E53A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E53B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E53C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E53D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E541</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E542</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E543</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E544</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E545</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E550</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E551</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E552</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E560</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E562</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E564</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E565</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E566</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E567</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E568</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E56C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E56D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E56E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E594</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E59A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E59D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E59E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5B0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5B2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5B5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5B8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5BB</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5BD</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5C6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5C7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5C8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5E5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5E6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E5E7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E610</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E612</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E614</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E624</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E630</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E631</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E650</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E651</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E652</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E653</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E654</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E655</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E658</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E661</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E662</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E664</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E665</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E843</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E844</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E845</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E875</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E876</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E880</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E881</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E882</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E883</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E884</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E885</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E886</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E887</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E888</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E889</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E910</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E911</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E912</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E913</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E914</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E915</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E916</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E917</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E918</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E919</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+E91A</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA1</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA6</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAA9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAAA</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAAD</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAAE</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAAF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EABA</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EABB</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EABC</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAE4</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EAE8</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EB78</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EB7C</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EBAD</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EBAE</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EBAF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EBB0</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EC62</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EC63</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+EC64</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECA2</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECA3</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECA5</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECA7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECA9</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECAB</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECAD</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECAF</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+ECB7</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F400</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F401</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F402</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F406</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F407</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F408</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F40B</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F40D</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F40E</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F434</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F43F</span>
+        </div>
+        <div class="cell">
+            <span class="glyph"></span>
+            <span class="code">U+F4BF</span>
+        </div>
+    </div>
+</body>
+</html>

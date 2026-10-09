@@ -1,0 +1,3817 @@
+[
+    {
+        "name": "00sBoyBand",
+        "id": "0x165e",
+        "category": "Pop",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "12-8PopBallad",
+        "id": "0x15e3",
+        "category": "Pop",
+        "tempo": 140,
+        "sig": "6/4"
+    },
+    {
+        "name": "16BeatBallad",
+        "id": "0x2020",
+        "category": "Pop",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "40sSwingBallad",
+        "id": "0x54c",
+        "category": "EasyListening",
+        "tempo": 66,
+        "sig": "4/4"
+    },
+    {
+        "name": "50sRock&Roll",
+        "id": "0xe6f",
+        "category": "Oldies",
+        "tempo": 160,
+        "sig": "4/4"
+    },
+    {
+        "name": "6-8ClassicSynth",
+        "id": "0x1ec0",
+        "category": "RetroPop",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "6-8GuitarBallad",
+        "id": "0x1e2e",
+        "category": "Pop",
+        "tempo": 57,
+        "sig": "4/4"
+    },
+    {
+        "name": "6-8March",
+        "id": "0x5c0",
+        "category": "Classic&Events",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "6-8PopBallad",
+        "id": "0x1f5",
+        "category": "Pop",
+        "tempo": 62,
+        "sig": "2/4"
+    },
+    {
+        "name": "6-8Rock",
+        "id": "0x1e42",
+        "category": "Rock",
+        "tempo": 91,
+        "sig": "4/4"
+    },
+    {
+        "name": "6-8SlowRock",
+        "id": "0x460",
+        "category": "Oldies",
+        "tempo": 73,
+        "sig": "4/4"
+    },
+    {
+        "name": "6-8SoulBallad",
+        "id": "0x1e80",
+        "category": "R&B",
+        "tempo": 48,
+        "sig": "4/4"
+    },
+    {
+        "name": "60s8Beat",
+        "id": "0x1606",
+        "category": "Oldies",
+        "tempo": 178,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sBlueEyedSoul",
+        "id": "0x173b",
+        "category": "Oldies",
+        "tempo": 121,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sBritishSoul",
+        "id": "0x173a",
+        "category": "Oldies",
+        "tempo": 148,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sChartSwing",
+        "id": "0xe01",
+        "category": "Oldies",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sGuitarRock",
+        "id": "0x1939",
+        "category": "Oldies",
+        "tempo": 121,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sOrganBallad",
+        "id": "0x1628",
+        "category": "Oldies",
+        "tempo": 72,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sPianoPop",
+        "id": "0x1723",
+        "category": "Oldies",
+        "tempo": 116,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sPopRock",
+        "id": "0x1617",
+        "category": "Oldies",
+        "tempo": 136,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sRisingPop",
+        "id": "0x1e28",
+        "category": "Oldies",
+        "tempo": 80,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sRock&Roll",
+        "id": "0x1662",
+        "category": "Oldies",
+        "tempo": 164,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sShadowedPop",
+        "id": "0x1605",
+        "category": "Oldies",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sUnderground",
+        "id": "0x165a",
+        "category": "Oldies",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sVintagePop",
+        "id": "0x17ab",
+        "category": "Oldies",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sVintageRock",
+        "id": "0x1644",
+        "category": "Oldies",
+        "tempo": 142,
+        "sig": "4/4"
+    },
+    {
+        "name": "60sVintageRumba",
+        "id": "0x17b0",
+        "category": "Oldies",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "70s8BeatBallad",
+        "id": "0x1624",
+        "category": "RetroPop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sChartBallad",
+        "id": "0x1622",
+        "category": "EasyListening",
+        "tempo": 72,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sChartSoul",
+        "id": "0x2087",
+        "category": "R&B",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sCoolBallad",
+        "id": "0x22e3",
+        "category": "R&B",
+        "tempo": 64,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sDisco1",
+        "id": "0x20a2",
+        "category": "RetroPop",
+        "tempo": 114,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sDisco2",
+        "id": "0x16a0",
+        "category": "RetroPop",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sDiscoFunk",
+        "id": "0x2082",
+        "category": "RetroPop",
+        "tempo": 116,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sEasyPop",
+        "id": "0x170f",
+        "category": "EasyListening",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sFrenchHit",
+        "id": "0x17e1",
+        "category": "RetroPop",
+        "tempo": 85,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sGlamPiano",
+        "id": "0x1740",
+        "category": "RetroPop",
+        "tempo": 69,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sHardRock",
+        "id": "0x1640",
+        "category": "Rock",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sPopDuo1",
+        "id": "0x1623",
+        "category": "EasyListening",
+        "tempo": 75,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sPopDuo2",
+        "id": "0x1629",
+        "category": "EasyListening",
+        "tempo": 77,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sScatLegend",
+        "id": "0x240b",
+        "category": "R&B",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sShuffleRock",
+        "id": "0x1a40",
+        "category": "Rock",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sStraightRock",
+        "id": "0x1659",
+        "category": "Rock",
+        "tempo": 150,
+        "sig": "4/4"
+    },
+    {
+        "name": "70sTV Theme",
+        "id": "0x2005",
+        "category": "Movie&Show",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "80s8Beat",
+        "id": "0x1726",
+        "category": "RetroPop",
+        "tempo": 97,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sAnalogBallad",
+        "id": "0x2037",
+        "category": "RetroPop",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sBoyBand",
+        "id": "0x202c",
+        "category": "RetroPop",
+        "tempo": 98,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sBritishPop",
+        "id": "0x201e",
+        "category": "RetroPop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sChilloutSynth",
+        "id": "0xc34",
+        "category": "RetroPop",
+        "tempo": 80,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sChristmas",
+        "id": "0x16b5",
+        "category": "Classic&Events",
+        "tempo": 107,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sClassic6-8",
+        "id": "0x1e44",
+        "category": "RetroPop",
+        "tempo": 111,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sClassicRock",
+        "id": "0x192f",
+        "category": "Rock",
+        "tempo": 109,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sDetective",
+        "id": "0x28c1",
+        "category": "Movie&Show",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sDiscoBeat",
+        "id": "0x20a6",
+        "category": "RetroPop",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sDivaBallad",
+        "id": "0x1e20",
+        "category": "RetroPop",
+        "tempo": 64,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sEdgyRock",
+        "id": "0x1653",
+        "category": "Rock",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sEuroPop",
+        "id": "0x192e",
+        "category": "RetroPop",
+        "tempo": 95,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sFunkIcon",
+        "id": "0x20af",
+        "category": "RetroPop",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sGrooveBallad",
+        "id": "0x28c0",
+        "category": "R&B",
+        "tempo": 76,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sGuitarPop",
+        "id": "0x1651",
+        "category": "RetroPop",
+        "tempo": 117,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sMonsterHit",
+        "id": "0x22c5",
+        "category": "RetroPop",
+        "tempo": 98,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sMovieBallad",
+        "id": "0x2010",
+        "category": "Movie&Show",
+        "tempo": 68,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sPianoBallad",
+        "id": "0x1639",
+        "category": "RetroPop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sPopBallad",
+        "id": "0x175d",
+        "category": "RetroPop",
+        "tempo": 86,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sPopDiva",
+        "id": "0x203f",
+        "category": "RetroPop",
+        "tempo": 119,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sPowerRock",
+        "id": "0x163f",
+        "category": "Rock",
+        "tempo": 121,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sRetroDisco",
+        "id": "0x16d4",
+        "category": "RetroPop",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sRockAnthem",
+        "id": "0x1927",
+        "category": "Rock",
+        "tempo": 81,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sRockBeat",
+        "id": "0x1654",
+        "category": "Rock",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sRockDiva",
+        "id": "0x1938",
+        "category": "Rock",
+        "tempo": 104,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sShuffle",
+        "id": "0x240d",
+        "category": "RetroPop",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sSmoothBallad",
+        "id": "0x203a",
+        "category": "R&B",
+        "tempo": 87,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sSynthBallad",
+        "id": "0x16d3",
+        "category": "RetroPop",
+        "tempo": 102,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sSynthDuo",
+        "id": "0x16b6",
+        "category": "RetroPop",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sSynthPop",
+        "id": "0x20a9",
+        "category": "RetroPop",
+        "tempo": 117,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sSynthRock",
+        "id": "0x2282",
+        "category": "Rock",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "80sTeenDisco",
+        "id": "0x16d2",
+        "category": "RetroPop",
+        "tempo": 115,
+        "sig": "4/4"
+    },
+    {
+        "name": "8BeatAdria",
+        "id": "0x1608",
+        "category": "EasyListening",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "90s8BeatBallad",
+        "id": "0x1604",
+        "category": "Pop",
+        "tempo": 92,
+        "sig": "4/4"
+    },
+    {
+        "name": "90sDisco",
+        "id": "0x16a4",
+        "category": "Pop",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "90sGuitarPop",
+        "id": "0x2001",
+        "category": "Pop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "90sPopGroove",
+        "id": "0x21e7",
+        "category": "R&B",
+        "tempo": 101,
+        "sig": "4/4"
+    },
+    {
+        "name": "90sPopShuffle",
+        "id": "0x24e8",
+        "category": "Pop",
+        "tempo": 94,
+        "sig": "4/4"
+    },
+    {
+        "name": "90sRockBallad",
+        "id": "0x2049",
+        "category": "Rock",
+        "tempo": 61,
+        "sig": "4/4"
+    },
+    {
+        "name": "90sSmoothBallad",
+        "id": "0x2033",
+        "category": "R&B",
+        "tempo": 80,
+        "sig": "4/4"
+    },
+    {
+        "name": "Acoustic8BtBallad",
+        "id": "0x174e",
+        "category": "Pop",
+        "tempo": 76,
+        "sig": "4/4"
+    },
+    {
+        "name": "AcousticBluegrass",
+        "id": "0x10c",
+        "category": "Country",
+        "tempo": 134,
+        "sig": "4/4"
+    },
+    {
+        "name": "AcousticBlues",
+        "id": "0xe71",
+        "category": "R&B",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "AcousticJazz",
+        "id": "0x531",
+        "category": "Jazz",
+        "tempo": 152,
+        "sig": "4/4"
+    },
+    {
+        "name": "AcousticRock",
+        "id": "0x2044",
+        "category": "Rock",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "AcousticShuffle",
+        "id": "0xf02",
+        "category": "R&B",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "AfroCuban",
+        "id": "0x3c00",
+        "category": "Jazz",
+        "tempo": 200,
+        "sig": "4/4"
+    },
+    {
+        "name": "AlpenBallad1",
+        "id": "0x1fe2",
+        "category": "Entertainer",
+        "tempo": 63,
+        "sig": "4/4"
+    },
+    {
+        "name": "AlpenLand",
+        "id": "0x172e",
+        "category": "Trad&Folk",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "AlpenSchlager",
+        "id": "0x1739",
+        "category": "Entertainer",
+        "tempo": 115,
+        "sig": "4/4"
+    },
+    {
+        "name": "AmazingGospel",
+        "id": "0x15e2",
+        "category": "R&B",
+        "tempo": 108,
+        "sig": "6/4"
+    },
+    {
+        "name": "AmbientChristmas",
+        "id": "0xc33",
+        "category": "Classic&Events",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "AngelSun",
+        "id": "0xc2d",
+        "category": "EasyListening",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "AnimationBallad",
+        "id": "0x1741",
+        "category": "Movie&Show",
+        "tempo": 77,
+        "sig": "4/4"
+    },
+    {
+        "name": "AnimationFantasy",
+        "id": "0xdc1",
+        "category": "Movie&Show",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "ApresSkiHit",
+        "id": "0x16ae",
+        "category": "Entertainer",
+        "tempo": 138,
+        "sig": "4/4"
+    },
+    {
+        "name": "ApresSkiParty",
+        "id": "0x16b8",
+        "category": "Entertainer",
+        "tempo": 140,
+        "sig": "4/4"
+    },
+    {
+        "name": "AustrianDiscoPop",
+        "id": "0x16b7",
+        "category": "Entertainer",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "AustrianGuitarPop",
+        "id": "0x2900",
+        "category": "Entertainer",
+        "tempo": 81,
+        "sig": "4/4"
+    },
+    {
+        "name": "Bachata",
+        "id": "0x1790",
+        "category": "Latin",
+        "tempo": 116,
+        "sig": "4/4"
+    },
+    {
+        "name": "BaroqueAir",
+        "id": "0x17e8",
+        "category": "Classic&Events",
+        "tempo": 69,
+        "sig": "4/4"
+    },
+    {
+        "name": "BeachRock",
+        "id": "0x1667",
+        "category": "Oldies",
+        "tempo": 156,
+        "sig": "4/4"
+    },
+    {
+        "name": "Beguine",
+        "id": "0x1781",
+        "category": "Ballroom",
+        "tempo": 113,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandBallad",
+        "id": "0x549",
+        "category": "Jazz",
+        "tempo": 66,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandCount",
+        "id": "0xf54",
+        "category": "Jazz",
+        "tempo": 174,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandCrooner",
+        "id": "0xf53",
+        "category": "Jazz",
+        "tempo": 152,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandFast1",
+        "id": "0xf46",
+        "category": "Jazz",
+        "tempo": 180,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandFast2",
+        "id": "0x543",
+        "category": "Jazz",
+        "tempo": 185,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandJazz",
+        "id": "0xf51",
+        "category": "Jazz",
+        "tempo": 200,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandMedium",
+        "id": "0xf40",
+        "category": "Jazz",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigBandShuffle",
+        "id": "0xf4f",
+        "category": "Jazz",
+        "tempo": 156,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigRockBallad",
+        "id": "0x1e29",
+        "category": "Rock",
+        "tempo": 49,
+        "sig": "4/4"
+    },
+    {
+        "name": "BigRoom",
+        "id": "0x2121",
+        "category": "Dance",
+        "tempo": 127,
+        "sig": "4/4"
+    },
+    {
+        "name": "BlueberryBlues",
+        "id": "0x1e60",
+        "category": "Oldies",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "Bluegrass",
+        "id": "0x103",
+        "category": "Country",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "BluesRock",
+        "id": "0x1680",
+        "category": "R&B",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "BluesShuffle",
+        "id": "0xe65",
+        "category": "R&B",
+        "tempo": 115,
+        "sig": "4/4"
+    },
+    {
+        "name": "BluesShuffleBand",
+        "id": "0xe72",
+        "category": "R&B",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "BohemianWaltz",
+        "id": "0x15e1",
+        "category": "Trad&Folk",
+        "tempo": 182,
+        "sig": "6/4"
+    },
+    {
+        "name": "BoleroLento",
+        "id": "0x1782",
+        "category": "Latin",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "Bomba",
+        "id": "0x2183",
+        "category": "Latin",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "BoogieWoogie",
+        "id": "0xe63",
+        "category": "Oldies",
+        "tempo": 166,
+        "sig": "4/4"
+    },
+    {
+        "name": "BossaBrazil",
+        "id": "0x163",
+        "category": "Latin",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "BossaNova",
+        "id": "0x160",
+        "category": "Latin",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "BossaRio",
+        "id": "0x176",
+        "category": "Latin",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "BoxingLegend",
+        "id": "0x20ac",
+        "category": "Movie&Show",
+        "tempo": 95,
+        "sig": "4/4"
+    },
+    {
+        "name": "BoyBandBallad",
+        "id": "0x172d",
+        "category": "Pop",
+        "tempo": 105,
+        "sig": "4/4"
+    },
+    {
+        "name": "BoyBandPop",
+        "id": "0x201f",
+        "category": "Pop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "BrassBand",
+        "id": "0x1c6",
+        "category": "Trad&Folk",
+        "tempo": 80,
+        "sig": "4/4"
+    },
+    {
+        "name": "BritishDancePop",
+        "id": "0x20ae",
+        "category": "Pop",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "BritishSunnyPop",
+        "id": "0x1a65",
+        "category": "RetroPop",
+        "tempo": 218,
+        "sig": "4/4"
+    },
+    {
+        "name": "BritPopAnthem",
+        "id": "0x2039",
+        "category": "Pop",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "BritPopDiva",
+        "id": "0x1926",
+        "category": "Pop",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "BritPopSwing",
+        "id": "0x1a00",
+        "category": "Pop",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "BritRockPop",
+        "id": "0x1650",
+        "category": "Rock",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "BroadwayBallad",
+        "id": "0xc21",
+        "category": "Movie&Show",
+        "tempo": 60,
+        "sig": "4/4"
+    },
+    {
+        "name": "BubblegumPop",
+        "id": "0x1607",
+        "category": "Oldies",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "CalifornianCountry",
+        "id": "0x1712",
+        "category": "Country",
+        "tempo": 136,
+        "sig": "4/4"
+    },
+    {
+        "name": "CanadianRock",
+        "id": "0x1752",
+        "category": "Rock",
+        "tempo": 139,
+        "sig": "4/4"
+    },
+    {
+        "name": "CelticDance",
+        "id": "0x17eb",
+        "category": "Trad&Folk",
+        "tempo": 119,
+        "sig": "4/4"
+    },
+    {
+        "name": "CelticDance3-4",
+        "id": "0xa62",
+        "category": "Trad&Folk",
+        "tempo": 123,
+        "sig": "3/4"
+    },
+    {
+        "name": "Cha-cha1",
+        "id": "0x1799",
+        "category": "Ballroom",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "Cha-cha2",
+        "id": "0x1783",
+        "category": "Ballroom",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "Charleston",
+        "id": "0x52a",
+        "category": "Ballroom",
+        "tempo": 209,
+        "sig": "4/4"
+    },
+    {
+        "name": "ChartEDM",
+        "id": "0x173d",
+        "category": "Dance",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "ChartPianoShuffle",
+        "id": "0x1900",
+        "category": "Pop",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "Chillout1",
+        "id": "0x2007",
+        "category": "Pop",
+        "tempo": 79,
+        "sig": "4/4"
+    },
+    {
+        "name": "ChilloutCafe",
+        "id": "0x2032",
+        "category": "Pop",
+        "tempo": 80,
+        "sig": "4/4"
+    },
+    {
+        "name": "ChillPerformer",
+        "id": "0xc29",
+        "category": "EasyListening",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "ChoirSoundtrack",
+        "id": "0x7f0",
+        "category": "Movie&Show",
+        "tempo": 74,
+        "sig": "3/4"
+    },
+    {
+        "name": "ChristmasBallad",
+        "id": "0x5e6",
+        "category": "Classic&Events",
+        "tempo": 94,
+        "sig": "4/4"
+    },
+    {
+        "name": "ChristmasSwing",
+        "id": "0x5e0",
+        "category": "Classic&Events",
+        "tempo": 148,
+        "sig": "4/4"
+    },
+    {
+        "name": "ChristmasWaltz",
+        "id": "0x7e2",
+        "category": "Classic&Events",
+        "tempo": 80,
+        "sig": "3/4"
+    },
+    {
+        "name": "CinematicPop",
+        "id": "0x24c4",
+        "category": "Pop",
+        "tempo": 95,
+        "sig": "4/4"
+    },
+    {
+        "name": "Classic16Beat",
+        "id": "0x202d",
+        "category": "R&B",
+        "tempo": 99,
+        "sig": "4/4"
+    },
+    {
+        "name": "Classic8Beat",
+        "id": "0x1721",
+        "category": "Oldies",
+        "tempo": 103,
+        "sig": "4/4"
+    },
+    {
+        "name": "ClassicBigBand",
+        "id": "0xf44",
+        "category": "Jazz",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "CloudyBay",
+        "id": "0xc2a",
+        "category": "EasyListening",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "ClubDance1",
+        "id": "0x20c1",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "ClubDance2",
+        "id": "0x16c0",
+        "category": "Dance",
+        "tempo": 123,
+        "sig": "4/4"
+    },
+    {
+        "name": "ClubHouse",
+        "id": "0x20c9",
+        "category": "Dance",
+        "tempo": 127,
+        "sig": "4/4"
+    },
+    {
+        "name": "ClubRiddim",
+        "id": "0x22c4",
+        "category": "Dance",
+        "tempo": 104,
+        "sig": "4/4"
+    },
+    {
+        "name": "Cool8Beat",
+        "id": "0x1603",
+        "category": "RetroPop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "CoolBossaNova",
+        "id": "0x16e",
+        "category": "Latin",
+        "tempo": 194,
+        "sig": "4/4"
+    },
+    {
+        "name": "CoolJazzBallad",
+        "id": "0x52d",
+        "category": "Jazz",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "CoolJazzClub",
+        "id": "0xf39",
+        "category": "Jazz",
+        "tempo": 142,
+        "sig": "4/4"
+    },
+    {
+        "name": "CoolPianoJazz",
+        "id": "0xf34",
+        "category": "Jazz",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "CoolR&B",
+        "id": "0x2000",
+        "category": "R&B",
+        "tempo": 85,
+        "sig": "4/4"
+    },
+    {
+        "name": "Country2-4",
+        "id": "0x100",
+        "category": "Country",
+        "tempo": 105,
+        "sig": "4/4"
+    },
+    {
+        "name": "Country8Beat1",
+        "id": "0x171d",
+        "category": "Country",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "Country8Beat2",
+        "id": "0x1700",
+        "category": "Country",
+        "tempo": 136,
+        "sig": "4/4"
+    },
+    {
+        "name": "Country8Beat3",
+        "id": "0x1702",
+        "category": "Country",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryBallad1",
+        "id": "0x1705",
+        "category": "Country",
+        "tempo": 72,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryBallad2",
+        "id": "0x1706",
+        "category": "Country",
+        "tempo": 68,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryBallad3",
+        "id": "0x2100",
+        "category": "Country",
+        "tempo": 64,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryBlues",
+        "id": "0x1711",
+        "category": "Country",
+        "tempo": 189,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryFolk8Beat",
+        "id": "0x1718",
+        "category": "Country",
+        "tempo": 140,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryFolkBallad",
+        "id": "0x2760",
+        "category": "Country",
+        "tempo": 72,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryFolkUpbeat",
+        "id": "0x506",
+        "category": "Country",
+        "tempo": 180,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryHits",
+        "id": "0x1704",
+        "category": "Country",
+        "tempo": 178,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryPop",
+        "id": "0x1703",
+        "category": "Country",
+        "tempo": 148,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryRock",
+        "id": "0x1701",
+        "category": "Country",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryShuffle1",
+        "id": "0x502",
+        "category": "Country",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryShuffle2",
+        "id": "0x501",
+        "category": "Country",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountrySingalong",
+        "id": "0x503",
+        "category": "Country",
+        "tempo": 160,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountrySongwriter",
+        "id": "0x1719",
+        "category": "Country",
+        "tempo": 170,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryStraits",
+        "id": "0x1713",
+        "category": "Country",
+        "tempo": 172,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryStrummin'",
+        "id": "0x170e",
+        "category": "Country",
+        "tempo": 168,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountrySwing",
+        "id": "0x500",
+        "category": "Country",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountrySwingBallad",
+        "id": "0x1e2f",
+        "category": "Country",
+        "tempo": 76,
+        "sig": "4/4"
+    },
+    {
+        "name": "CountryWaltz",
+        "id": "0xb00",
+        "category": "Country",
+        "tempo": 100,
+        "sig": "3/4"
+    },
+    {
+        "name": "CrazyPop",
+        "id": "0x2012",
+        "category": "Pop",
+        "tempo": 105,
+        "sig": "4/4"
+    },
+    {
+        "name": "CubanSon",
+        "id": "0x181",
+        "category": "Latin",
+        "tempo": 191,
+        "sig": "4/4"
+    },
+    {
+        "name": "CultKidsTV",
+        "id": "0x5c4",
+        "category": "Movie&Show",
+        "tempo": 127,
+        "sig": "4/4"
+    },
+    {
+        "name": "DanceFloor",
+        "id": "0x173c",
+        "category": "Dance",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "DanceFox2016",
+        "id": "0x16a1",
+        "category": "Entertainer",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "DangerDance",
+        "id": "0x20dd",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "DetroitPop",
+        "id": "0xe66",
+        "category": "R&B",
+        "tempo": 144,
+        "sig": "4/4"
+    },
+    {
+        "name": "DirtyPop",
+        "id": "0x20da",
+        "category": "Dance",
+        "tempo": 135,
+        "sig": "4/4"
+    },
+    {
+        "name": "DiscoChocolate",
+        "id": "0x20a1",
+        "category": "RetroPop",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "DiscoFox",
+        "id": "0x16a3",
+        "category": "Entertainer",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "DiscoFoxRock",
+        "id": "0x165b",
+        "category": "Entertainer",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "DivaChartPunk",
+        "id": "0x2762",
+        "category": "Pop",
+        "tempo": 160,
+        "sig": "4/4"
+    },
+    {
+        "name": "DivaPowerPop",
+        "id": "0x16c1",
+        "category": "Pop",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "Dixieland",
+        "id": "0x52b",
+        "category": "Jazz",
+        "tempo": 205,
+        "sig": "4/4"
+    },
+    {
+        "name": "DreamDance",
+        "id": "0x20c4",
+        "category": "Dance",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "DreamSchlager",
+        "id": "0x2133",
+        "category": "Entertainer",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "DreamyBallad",
+        "id": "0x54a",
+        "category": "EasyListening",
+        "tempo": 63,
+        "sig": "4/4"
+    },
+    {
+        "name": "Dubstep",
+        "id": "0x2136",
+        "category": "Dance",
+        "tempo": 141,
+        "sig": "4/4"
+    },
+    {
+        "name": "EasyBallad",
+        "id": "0x1626",
+        "category": "EasyListening",
+        "tempo": 94,
+        "sig": "4/4"
+    },
+    {
+        "name": "EasyCountryBallad",
+        "id": "0x170c",
+        "category": "Country",
+        "tempo": 88,
+        "sig": "4/4"
+    },
+    {
+        "name": "EasyListening",
+        "id": "0x540",
+        "category": "EasyListening",
+        "tempo": 72,
+        "sig": "4/4"
+    },
+    {
+        "name": "EasyPop",
+        "id": "0x1722",
+        "category": "EasyListening",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "EasySwing",
+        "id": "0x528",
+        "category": "EasyListening",
+        "tempo": 102,
+        "sig": "4/4"
+    },
+    {
+        "name": "EDM Anthem",
+        "id": "0x213c",
+        "category": "Dance",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "ElectroHouse",
+        "id": "0x2128",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "Electronica",
+        "id": "0x20c8",
+        "category": "Dance",
+        "tempo": 123,
+        "sig": "4/4"
+    },
+    {
+        "name": "ElectroPop",
+        "id": "0x16d5",
+        "category": "Dance",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "ElectroSchlager",
+        "id": "0x193a",
+        "category": "Entertainer",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "ElectroStep",
+        "id": "0x212c",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "EnglishWaltz",
+        "id": "0x600",
+        "category": "Ballroom",
+        "tempo": 87,
+        "sig": "3/4"
+    },
+    {
+        "name": "EpicBallad",
+        "id": "0x162a",
+        "category": "EasyListening",
+        "tempo": 75,
+        "sig": "4/4"
+    },
+    {
+        "name": "EpicDivaBallad",
+        "id": "0x193b",
+        "category": "Pop",
+        "tempo": 79,
+        "sig": "4/4"
+    },
+    {
+        "name": "EpicEuroBallad",
+        "id": "0x1936",
+        "category": "Pop",
+        "tempo": 92,
+        "sig": "4/4"
+    },
+    {
+        "name": "EtherealMovie",
+        "id": "0xc22",
+        "category": "Movie&Show",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "EtherealVoices",
+        "id": "0xc26",
+        "category": "Movie&Show",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "Eurodance1",
+        "id": "0x212d",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "EuroPopOrgan",
+        "id": "0x161b",
+        "category": "EasyListening",
+        "tempo": 145,
+        "sig": "4/4"
+    },
+    {
+        "name": "EuroTrance",
+        "id": "0x16c3",
+        "category": "Dance",
+        "tempo": 140,
+        "sig": "4/4"
+    },
+    {
+        "name": "FantasyFox",
+        "id": "0x2137",
+        "category": "Entertainer",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "FastCountryBlues",
+        "id": "0x171b",
+        "category": "Country",
+        "tempo": 210,
+        "sig": "4/4"
+    },
+    {
+        "name": "FinalWaltz",
+        "id": "0xb23",
+        "category": "Ballroom",
+        "tempo": 100,
+        "sig": "3/4"
+    },
+    {
+        "name": "FiveFour",
+        "id": "0x1000",
+        "category": "Jazz",
+        "tempo": 168,
+        "sig": "5/4"
+    },
+    {
+        "name": "Flamenco",
+        "id": "0x7ed",
+        "category": "Trad&Folk",
+        "tempo": 169,
+        "sig": "3/4"
+    },
+    {
+        "name": "FolkPop",
+        "id": "0x170d",
+        "category": "Trad&Folk",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "FolkSongDuo",
+        "id": "0x1609",
+        "category": "Trad&Folk",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "Foxtrot",
+        "id": "0x520",
+        "category": "Ballroom",
+        "tempo": 180,
+        "sig": "4/4"
+    },
+    {
+        "name": "FranklySoul",
+        "id": "0x2085",
+        "category": "R&B",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "FrenchClub",
+        "id": "0x20db",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "FrenchJazz",
+        "id": "0x529",
+        "category": "Jazz",
+        "tempo": 232,
+        "sig": "4/4"
+    },
+    {
+        "name": "FrenchMusette",
+        "id": "0x7e7",
+        "category": "Trad&Folk",
+        "tempo": 200,
+        "sig": "3/4"
+    },
+    {
+        "name": "FrenchWaltz",
+        "id": "0x7e4",
+        "category": "Trad&Folk",
+        "tempo": 196,
+        "sig": "3/4"
+    },
+    {
+        "name": "FunkDisco",
+        "id": "0x208a",
+        "category": "RetroPop",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "FunkPopRock",
+        "id": "0x2043",
+        "category": "Pop",
+        "tempo": 95,
+        "sig": "4/4"
+    },
+    {
+        "name": "FunkyHouse",
+        "id": "0x16aa",
+        "category": "Dance",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "FusionShuffle",
+        "id": "0x2402",
+        "category": "R&B",
+        "tempo": 89,
+        "sig": "4/4"
+    },
+    {
+        "name": "GangstaHouse",
+        "id": "0x2129",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "GermanMarch1",
+        "id": "0x1c3",
+        "category": "Trad&Folk",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "GermanMarch2",
+        "id": "0x1c4",
+        "category": "Trad&Folk",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "GermanRock",
+        "id": "0x1655",
+        "category": "Entertainer",
+        "tempo": 185,
+        "sig": "4/4"
+    },
+    {
+        "name": "GermanWaltz",
+        "id": "0x7f6",
+        "category": "Trad&Folk",
+        "tempo": 190,
+        "sig": "6/4"
+    },
+    {
+        "name": "GlobalDJs",
+        "id": "0x161c",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "GospelBallad",
+        "id": "0x174b",
+        "category": "R&B",
+        "tempo": 68,
+        "sig": "4/4"
+    },
+    {
+        "name": "GospelBrothers",
+        "id": "0x2081",
+        "category": "R&B",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "GospelSisters",
+        "id": "0xa01",
+        "category": "R&B",
+        "tempo": 90,
+        "sig": "3/4"
+    },
+    {
+        "name": "GospelSwing",
+        "id": "0x400",
+        "category": "R&B",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "GreenFantasia",
+        "id": "0x17ed",
+        "category": "Classic&Events",
+        "tempo": 46,
+        "sig": "4/4"
+    },
+    {
+        "name": "GrindHouse",
+        "id": "0x212a",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "GrooveShack",
+        "id": "0x1937",
+        "category": "RetroPop",
+        "tempo": 134,
+        "sig": "4/4"
+    },
+    {
+        "name": "Guaguanco",
+        "id": "0x2181",
+        "category": "Latin",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "Guajira",
+        "id": "0x178f",
+        "category": "Latin",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "GuitarBlues",
+        "id": "0x1f8",
+        "category": "R&B",
+        "tempo": 52,
+        "sig": "2/4"
+    },
+    {
+        "name": "GuitarRumba",
+        "id": "0x17a0",
+        "category": "Latin",
+        "tempo": 166,
+        "sig": "4/4"
+    },
+    {
+        "name": "GuitarSerenade",
+        "id": "0x7e3",
+        "category": "Movie&Show",
+        "tempo": 96,
+        "sig": "3/4"
+    },
+    {
+        "name": "HappyBeat",
+        "id": "0x171e",
+        "category": "EasyListening",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "HappyReggae",
+        "id": "0x5a0",
+        "category": "RetroPop",
+        "tempo": 85,
+        "sig": "4/4"
+    },
+    {
+        "name": "HardClub",
+        "id": "0x2123",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "HardTrance",
+        "id": "0x213b",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "Hawaiian",
+        "id": "0x5e2",
+        "category": "EasyListening",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "HelloShuffle",
+        "id": "0x1fea",
+        "category": "Entertainer",
+        "tempo": 109,
+        "sig": "4/4"
+    },
+    {
+        "name": "HighRoadRock",
+        "id": "0x1930",
+        "category": "Rock",
+        "tempo": 116,
+        "sig": "4/4"
+    },
+    {
+        "name": "HipHop",
+        "id": "0x16c8",
+        "category": "R&B",
+        "tempo": 84,
+        "sig": "4/4"
+    },
+    {
+        "name": "Hoedown",
+        "id": "0x101",
+        "category": "Country",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "HollywoodGospel",
+        "id": "0x240a",
+        "category": "R&B",
+        "tempo": 111,
+        "sig": "4/4"
+    },
+    {
+        "name": "Ibiza2010",
+        "id": "0x16c2",
+        "category": "Dance",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "IndieRock",
+        "id": "0x2761",
+        "category": "Rock",
+        "tempo": 134,
+        "sig": "4/4"
+    },
+    {
+        "name": "InstrumentalJazz",
+        "id": "0xf25",
+        "category": "Jazz",
+        "tempo": 218,
+        "sig": "4/4"
+    },
+    {
+        "name": "IrishDance",
+        "id": "0x200a",
+        "category": "Trad&Folk",
+        "tempo": 94,
+        "sig": "4/4"
+    },
+    {
+        "name": "IrishFolkPop",
+        "id": "0x161e",
+        "category": "Pop",
+        "tempo": 105,
+        "sig": "4/4"
+    },
+    {
+        "name": "IrishHymn",
+        "id": "0x1fe5",
+        "category": "Trad&Folk",
+        "tempo": 70,
+        "sig": "3/4"
+    },
+    {
+        "name": "IrishPopBallad",
+        "id": "0x1627",
+        "category": "Pop",
+        "tempo": 81,
+        "sig": "4/4"
+    },
+    {
+        "name": "It'sShowtime",
+        "id": "0xdc0",
+        "category": "Movie&Show",
+        "tempo": 135,
+        "sig": "4/4"
+    },
+    {
+        "name": "ItalianMazurka",
+        "id": "0x7e9",
+        "category": "Trad&Folk",
+        "tempo": 143,
+        "sig": "3/4"
+    },
+    {
+        "name": "ItalianWaltz",
+        "id": "0x7ea",
+        "category": "Trad&Folk",
+        "tempo": 175,
+        "sig": "3/4"
+    },
+    {
+        "name": "JazzFunk",
+        "id": "0x2084",
+        "category": "R&B",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "JazzFusion",
+        "id": "0x2403",
+        "category": "R&B",
+        "tempo": 102,
+        "sig": "4/4"
+    },
+    {
+        "name": "JazzGuitarClub",
+        "id": "0xf26",
+        "category": "Jazz",
+        "tempo": 150,
+        "sig": "4/4"
+    },
+    {
+        "name": "JazzOrganBallad",
+        "id": "0x553",
+        "category": "Jazz",
+        "tempo": 77,
+        "sig": "4/4"
+    },
+    {
+        "name": "JazzOrganCombo",
+        "id": "0xf30",
+        "category": "Jazz",
+        "tempo": 175,
+        "sig": "4/4"
+    },
+    {
+        "name": "JazzOrganGrinder",
+        "id": "0xf3d",
+        "category": "Jazz",
+        "tempo": 175,
+        "sig": "4/4"
+    },
+    {
+        "name": "JazzOrganGroove",
+        "id": "0x160c",
+        "category": "Jazz",
+        "tempo": 180,
+        "sig": "4/4"
+    },
+    {
+        "name": "JazzSamba",
+        "id": "0xf2a",
+        "category": "Latin",
+        "tempo": 102,
+        "sig": "4/4"
+    },
+    {
+        "name": "Jive1",
+        "id": "0xe04",
+        "category": "Ballroom",
+        "tempo": 172,
+        "sig": "4/4"
+    },
+    {
+        "name": "Jive2",
+        "id": "0xe00",
+        "category": "Ballroom",
+        "tempo": 180,
+        "sig": "4/4"
+    },
+    {
+        "name": "JumpJive",
+        "id": "0xe60",
+        "category": "Jazz",
+        "tempo": 200,
+        "sig": "4/4"
+    },
+    {
+        "name": "KissDancePop",
+        "id": "0x2901",
+        "category": "Pop",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "KoolShuffle",
+        "id": "0x2280",
+        "category": "R&B",
+        "tempo": 98,
+        "sig": "4/4"
+    },
+    {
+        "name": "LatinPartyPop",
+        "id": "0x2035",
+        "category": "RetroPop",
+        "tempo": 109,
+        "sig": "4/4"
+    },
+    {
+        "name": "LatinPop",
+        "id": "0x28c3",
+        "category": "Latin",
+        "tempo": 91,
+        "sig": "4/4"
+    },
+    {
+        "name": "Live8Beat",
+        "id": "0x1646",
+        "category": "Pop",
+        "tempo": 86,
+        "sig": "4/4"
+    },
+    {
+        "name": "LiveCumbia",
+        "id": "0x1785",
+        "category": "Latin",
+        "tempo": 98,
+        "sig": "4/4"
+    },
+    {
+        "name": "LiveMerengue",
+        "id": "0x182",
+        "category": "Latin",
+        "tempo": 144,
+        "sig": "4/4"
+    },
+    {
+        "name": "LiveSoulBand",
+        "id": "0x2042",
+        "category": "R&B",
+        "tempo": 129,
+        "sig": "4/4"
+    },
+    {
+        "name": "LoungeBossa",
+        "id": "0x16b",
+        "category": "Latin",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "LovelyShuffle",
+        "id": "0x1e02",
+        "category": "R&B",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "LoveSong",
+        "id": "0x1618",
+        "category": "Pop",
+        "tempo": 70,
+        "sig": "4/4"
+    },
+    {
+        "name": "LushBallad",
+        "id": "0x550",
+        "category": "EasyListening",
+        "tempo": 76,
+        "sig": "4/4"
+    },
+    {
+        "name": "MalleDiscoKing",
+        "id": "0x2135",
+        "category": "Entertainer",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "MallorcaDisco",
+        "id": "0x20d9",
+        "category": "Entertainer",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "MallorcaParty",
+        "id": "0x16ac",
+        "category": "Entertainer",
+        "tempo": 138,
+        "sig": "4/4"
+    },
+    {
+        "name": "ManhattanSwing",
+        "id": "0xf27",
+        "category": "Jazz",
+        "tempo": 205,
+        "sig": "4/4"
+    },
+    {
+        "name": "MariachiWaltz",
+        "id": "0x7ee",
+        "category": "Trad&Folk",
+        "tempo": 170,
+        "sig": "3/4"
+    },
+    {
+        "name": "MediumJazzWaltz",
+        "id": "0xb21",
+        "category": "Jazz",
+        "tempo": 180,
+        "sig": "3/4"
+    },
+    {
+        "name": "MexicanDance",
+        "id": "0x1ea",
+        "category": "Trad&Folk",
+        "tempo": 120,
+        "sig": "2/4"
+    },
+    {
+        "name": "MiamiHouse",
+        "id": "0x2127",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "MidnightSwing",
+        "id": "0x541",
+        "category": "EasyListening",
+        "tempo": 82,
+        "sig": "4/4"
+    },
+    {
+        "name": "ModernBigBand",
+        "id": "0xf2e",
+        "category": "Jazz",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "ModernHipHop",
+        "id": "0x1724",
+        "category": "Dance",
+        "tempo": 111,
+        "sig": "4/4"
+    },
+    {
+        "name": "ModernPickin'",
+        "id": "0x102",
+        "category": "Country",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "ModernPopBallad",
+        "id": "0x202f",
+        "category": "Pop",
+        "tempo": 60,
+        "sig": "4/4"
+    },
+    {
+        "name": "ModernSchlager",
+        "id": "0x1924",
+        "category": "Entertainer",
+        "tempo": 127,
+        "sig": "4/4"
+    },
+    {
+        "name": "Moonlight6-8",
+        "id": "0x17ef",
+        "category": "Classic&Events",
+        "tempo": 54,
+        "sig": "4/4"
+    },
+    {
+        "name": "MoonWaltz",
+        "id": "0x606",
+        "category": "Ballroom",
+        "tempo": 92,
+        "sig": "3/4"
+    },
+    {
+        "name": "MotorCity",
+        "id": "0x1681",
+        "category": "R&B",
+        "tempo": 102,
+        "sig": "4/4"
+    },
+    {
+        "name": "MovieBallad",
+        "id": "0xc20",
+        "category": "Movie&Show",
+        "tempo": 80,
+        "sig": "4/4"
+    },
+    {
+        "name": "MovieClassic",
+        "id": "0x1749",
+        "category": "Movie&Show",
+        "tempo": 78,
+        "sig": "4/4"
+    },
+    {
+        "name": "MovieDisco",
+        "id": "0x16a5",
+        "category": "Movie&Show",
+        "tempo": 114,
+        "sig": "4/4"
+    },
+    {
+        "name": "MovieHorns",
+        "id": "0xc30",
+        "category": "Movie&Show",
+        "tempo": 60,
+        "sig": "4/4"
+    },
+    {
+        "name": "MoviePanther",
+        "id": "0xf49",
+        "category": "Movie&Show",
+        "tempo": 114,
+        "sig": "4/4"
+    },
+    {
+        "name": "MovieSoundtrack",
+        "id": "0x801",
+        "category": "Movie&Show",
+        "tempo": 182,
+        "sig": "3/4"
+    },
+    {
+        "name": "MovieSwing1",
+        "id": "0x548",
+        "category": "Movie&Show",
+        "tempo": 116,
+        "sig": "4/4"
+    },
+    {
+        "name": "MovieSwing2",
+        "id": "0x544",
+        "category": "Movie&Show",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "Mr.Soul",
+        "id": "0x17e5",
+        "category": "R&B",
+        "tempo": 116,
+        "sig": "4/4"
+    },
+    {
+        "name": "NashvilleBallad1",
+        "id": "0x171c",
+        "category": "Country",
+        "tempo": 78,
+        "sig": "4/4"
+    },
+    {
+        "name": "NashvilleBallad2",
+        "id": "0x2105",
+        "category": "Country",
+        "tempo": 76,
+        "sig": "4/4"
+    },
+    {
+        "name": "NashvilleBreakPop",
+        "id": "0x204a",
+        "category": "Country",
+        "tempo": 88,
+        "sig": "4/4"
+    },
+    {
+        "name": "NashvillePop",
+        "id": "0x171a",
+        "category": "Country",
+        "tempo": 119,
+        "sig": "4/4"
+    },
+    {
+        "name": "NashvilleRock",
+        "id": "0x204b",
+        "category": "Country",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "NightWalk",
+        "id": "0xc2b",
+        "category": "EasyListening",
+        "tempo": 75,
+        "sig": "4/4"
+    },
+    {
+        "name": "OberkrainerPolka1",
+        "id": "0x1",
+        "category": "Trad&Folk",
+        "tempo": 104,
+        "sig": "4/4"
+    },
+    {
+        "name": "OberkrainerPolka2",
+        "id": "0x1e4",
+        "category": "Trad&Folk",
+        "tempo": 135,
+        "sig": "4/4"
+    },
+    {
+        "name": "OberkrainerPolka3",
+        "id": "0x1e3",
+        "category": "Trad&Folk",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "OberkrainerWaltz1",
+        "id": "0x7fc",
+        "category": "Trad&Folk",
+        "tempo": 198,
+        "sig": "3/4"
+    },
+    {
+        "name": "OberkrainerWaltz2",
+        "id": "0x7e6",
+        "category": "Trad&Folk",
+        "tempo": 190,
+        "sig": "4/4"
+    },
+    {
+        "name": "OberkrainerWaltz3",
+        "id": "0x7e5",
+        "category": "Trad&Folk",
+        "tempo": 190,
+        "sig": "3/4"
+    },
+    {
+        "name": "OktoberRockHit",
+        "id": "0x10e",
+        "category": "Entertainer",
+        "tempo": 96,
+        "sig": "4/4"
+    },
+    {
+        "name": "OldiesRock&Roll",
+        "id": "0x1a63",
+        "category": "Oldies",
+        "tempo": 180,
+        "sig": "4/4"
+    },
+    {
+        "name": "OnBroadway",
+        "id": "0xc27",
+        "category": "Movie&Show",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchBigBand1",
+        "id": "0xf42",
+        "category": "Jazz",
+        "tempo": 140,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchBigBand2",
+        "id": "0xf43",
+        "category": "Jazz",
+        "tempo": 133,
+        "sig": "4/4"
+    },
+    {
+        "name": "Orchestral12-8",
+        "id": "0x1e24",
+        "category": "EasyListening",
+        "tempo": 72,
+        "sig": "4/4"
+    },
+    {
+        "name": "Orchestral6-8",
+        "id": "0x1e21",
+        "category": "EasyListening",
+        "tempo": 62,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchestralMarch",
+        "id": "0x1c1",
+        "category": "Classic&Events",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchestralPolka",
+        "id": "0x1e2",
+        "category": "Classic&Events",
+        "tempo": 138,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchestralPop",
+        "id": "0x1934",
+        "category": "Pop",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchestralSwing1",
+        "id": "0x546",
+        "category": "EasyListening",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchestralSwing2",
+        "id": "0xf4a",
+        "category": "EasyListening",
+        "tempo": 152,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchPopClassics",
+        "id": "0x160d",
+        "category": "Classic&Events",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchRockBallad1",
+        "id": "0x1748",
+        "category": "Rock",
+        "tempo": 60,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrchRockBallad2",
+        "id": "0x2045",
+        "category": "Rock",
+        "tempo": 72,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrganBossa",
+        "id": "0x178e",
+        "category": "EasyListening",
+        "tempo": 160,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrganCha-cha",
+        "id": "0x1784",
+        "category": "Ballroom",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrganHymn",
+        "id": "0xc2f",
+        "category": "Classic&Events",
+        "tempo": 63,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrganQuickstep",
+        "id": "0x524",
+        "category": "Ballroom",
+        "tempo": 200,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrganRumba",
+        "id": "0x17a9",
+        "category": "Ballroom",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrganSamba",
+        "id": "0x2161",
+        "category": "Ballroom",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "OrganSwing",
+        "id": "0x526",
+        "category": "EasyListening",
+        "tempo": 143,
+        "sig": "4/4"
+    },
+    {
+        "name": "PandaHipHop",
+        "id": "0x1935",
+        "category": "Entertainer",
+        "tempo": 182,
+        "sig": "4/4"
+    },
+    {
+        "name": "PartyAGogo",
+        "id": "0x53b",
+        "category": "EasyListening",
+        "tempo": 186,
+        "sig": "4/4"
+    },
+    {
+        "name": "PartyAnthem",
+        "id": "0x2138",
+        "category": "Dance",
+        "tempo": 129,
+        "sig": "4/4"
+    },
+    {
+        "name": "PartyArena",
+        "id": "0x16ad",
+        "category": "Entertainer",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "PartyPolka",
+        "id": "0x0",
+        "category": "Entertainer",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "Pasodoble1",
+        "id": "0xde4",
+        "category": "Ballroom",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "Pasodoble2",
+        "id": "0xde0",
+        "category": "Ballroom",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "PhillyDisco",
+        "id": "0x20a0",
+        "category": "RetroPop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "PianoBallad",
+        "id": "0xd21",
+        "category": "Pop",
+        "tempo": 68,
+        "sig": "4/4"
+    },
+    {
+        "name": "PianoBoogie",
+        "id": "0xe61",
+        "category": "Oldies",
+        "tempo": 164,
+        "sig": "4/4"
+    },
+    {
+        "name": "PianoHouse",
+        "id": "0x212b",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "Pickin'Swing",
+        "id": "0xf00",
+        "category": "Country",
+        "tempo": 167,
+        "sig": "4/4"
+    },
+    {
+        "name": "Play4Sofa",
+        "id": "0xc2c",
+        "category": "EasyListening",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "PolkaPop",
+        "id": "0x1e1",
+        "category": "Entertainer",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopBluegrass",
+        "id": "0x10d",
+        "category": "Country",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopBossa",
+        "id": "0x161",
+        "category": "Latin",
+        "tempo": 133,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopCha-cha",
+        "id": "0x1792",
+        "category": "Latin",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopCumbia",
+        "id": "0x28c4",
+        "category": "Latin",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopEvergreen",
+        "id": "0x174a",
+        "category": "Pop",
+        "tempo": 67,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopFlamencos",
+        "id": "0x21a0",
+        "category": "Latin",
+        "tempo": 104,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopLatin",
+        "id": "0x16e3",
+        "category": "Latin",
+        "tempo": 103,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopLatinBallad",
+        "id": "0x17aa",
+        "category": "Latin",
+        "tempo": 95,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopLegend",
+        "id": "0x20aa",
+        "category": "RetroPop",
+        "tempo": 113,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopMerengue",
+        "id": "0x219c",
+        "category": "Latin",
+        "tempo": 175,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopRockShuffle",
+        "id": "0x2409",
+        "category": "Pop",
+        "tempo": 78,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopRumba",
+        "id": "0x1797",
+        "category": "Entertainer",
+        "tempo": 127,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopTeenShuffle",
+        "id": "0x1a64",
+        "category": "Pop",
+        "tempo": 164,
+        "sig": "4/4"
+    },
+    {
+        "name": "PopWaltz",
+        "id": "0xa00",
+        "category": "RetroPop",
+        "tempo": 94,
+        "sig": "3/4"
+    },
+    {
+        "name": "PowerBallad",
+        "id": "0xde3",
+        "category": "Pop",
+        "tempo": 60,
+        "sig": "4/4"
+    },
+    {
+        "name": "PowerPopBallad",
+        "id": "0x175e",
+        "category": "Pop",
+        "tempo": 61,
+        "sig": "4/4"
+    },
+    {
+        "name": "PowerRock",
+        "id": "0x1643",
+        "category": "Rock",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "PromsMarch",
+        "id": "0x1c9",
+        "category": "Classic&Events",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "PubPiano",
+        "id": "0x1e0",
+        "category": "Oldies",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "Quickstep1",
+        "id": "0x53c",
+        "category": "Ballroom",
+        "tempo": 188,
+        "sig": "4/4"
+    },
+    {
+        "name": "Quickstep2",
+        "id": "0x523",
+        "category": "Ballroom",
+        "tempo": 195,
+        "sig": "4/4"
+    },
+    {
+        "name": "R&B PopDiva",
+        "id": "0x2018",
+        "category": "R&B",
+        "tempo": 103,
+        "sig": "4/4"
+    },
+    {
+        "name": "R&B Shuffle",
+        "id": "0xe6e",
+        "category": "R&B",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "R&B SoulBallad",
+        "id": "0x2089",
+        "category": "R&B",
+        "tempo": 85,
+        "sig": "4/4"
+    },
+    {
+        "name": "Ragtime",
+        "id": "0x120",
+        "category": "Jazz",
+        "tempo": 176,
+        "sig": "4/4"
+    },
+    {
+        "name": "Reggaeton",
+        "id": "0x28c2",
+        "category": "Dance",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "RetroDance",
+        "id": "0x16c5",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "Rock&Roll",
+        "id": "0x1648",
+        "category": "Oldies",
+        "tempo": 172,
+        "sig": "4/4"
+    },
+    {
+        "name": "Rock&RollJive",
+        "id": "0xe67",
+        "category": "Oldies",
+        "tempo": 192,
+        "sig": "4/4"
+    },
+    {
+        "name": "Rock&RollShuffle",
+        "id": "0xfe0",
+        "category": "Oldies",
+        "tempo": 176,
+        "sig": "4/4"
+    },
+    {
+        "name": "RockCha-cha",
+        "id": "0x17a1",
+        "category": "Latin",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "RockPartyKing",
+        "id": "0x1933",
+        "category": "Entertainer",
+        "tempo": 131,
+        "sig": "4/4"
+    },
+    {
+        "name": "RockYaBeatbox",
+        "id": "0x24ed",
+        "category": "Dance",
+        "tempo": 101,
+        "sig": "4/4"
+    },
+    {
+        "name": "RomanticMovie",
+        "id": "0xc32",
+        "category": "Movie&Show",
+        "tempo": 62,
+        "sig": "4/4"
+    },
+    {
+        "name": "RomanticWaltz",
+        "id": "0x7f9",
+        "category": "EasyListening",
+        "tempo": 79,
+        "sig": "3/4"
+    },
+    {
+        "name": "RoseDisco",
+        "id": "0x16b2",
+        "category": "RetroPop",
+        "tempo": 130,
+        "sig": "4/4"
+    },
+    {
+        "name": "Rumba1",
+        "id": "0x1788",
+        "category": "Ballroom",
+        "tempo": 104,
+        "sig": "4/4"
+    },
+    {
+        "name": "Rumba2",
+        "id": "0x1780",
+        "category": "Ballroom",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "RumbaIsland",
+        "id": "0x180",
+        "category": "Entertainer",
+        "tempo": 113,
+        "sig": "4/4"
+    },
+    {
+        "name": "RussianWaltz",
+        "id": "0x7f7",
+        "category": "Classic&Events",
+        "tempo": 183,
+        "sig": "3/4"
+    },
+    {
+        "name": "Salsa",
+        "id": "0x218e",
+        "category": "Latin",
+        "tempo": 177,
+        "sig": "4/4"
+    },
+    {
+        "name": "Samba1",
+        "id": "0x200c",
+        "category": "Ballroom",
+        "tempo": 104,
+        "sig": "4/4"
+    },
+    {
+        "name": "Samba2",
+        "id": "0x2163",
+        "category": "Ballroom",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "SambaRio",
+        "id": "0x175",
+        "category": "Latin",
+        "tempo": 184,
+        "sig": "4/4"
+    },
+    {
+        "name": "SaturdayNight",
+        "id": "0x20a4",
+        "category": "Movie&Show",
+        "tempo": 108,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScandBugg",
+        "id": "0xe64",
+        "category": "Oldies",
+        "tempo": 154,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScandCountry",
+        "id": "0x1707",
+        "category": "Oldies",
+        "tempo": 156,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScandShuffle",
+        "id": "0x1a01",
+        "category": "Oldies",
+        "tempo": 111,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScandSlowRock",
+        "id": "0x1e03",
+        "category": "Oldies",
+        "tempo": 84,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScandWaltz",
+        "id": "0x601",
+        "category": "Trad&Folk",
+        "tempo": 176,
+        "sig": "3/4"
+    },
+    {
+        "name": "Schlager3-4",
+        "id": "0x15e4",
+        "category": "Entertainer",
+        "tempo": 190,
+        "sig": "3/4"
+    },
+    {
+        "name": "Schlager6-8",
+        "id": "0x1e25",
+        "category": "Entertainer",
+        "tempo": 71,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerAlp",
+        "id": "0x160f",
+        "category": "Entertainer",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerBeat",
+        "id": "0x160e",
+        "category": "Entertainer",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerFever",
+        "id": "0x165c",
+        "category": "Entertainer",
+        "tempo": 115,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerFox",
+        "id": "0x1725",
+        "category": "Entertainer",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerPalace",
+        "id": "0x172b",
+        "category": "Entertainer",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerPolka",
+        "id": "0x1e5",
+        "category": "Entertainer",
+        "tempo": 127,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerPop",
+        "id": "0xc00",
+        "category": "Entertainer",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerRock1",
+        "id": "0x164f",
+        "category": "Entertainer",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerRock2",
+        "id": "0x1925",
+        "category": "Entertainer",
+        "tempo": 91,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerRock3",
+        "id": "0x1649",
+        "category": "Entertainer",
+        "tempo": 129,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerRumba",
+        "id": "0x17a4",
+        "category": "Entertainer",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerSamba",
+        "id": "0x21e0",
+        "category": "Entertainer",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerShuffle",
+        "id": "0x1e00",
+        "category": "Entertainer",
+        "tempo": 121,
+        "sig": "4/4"
+    },
+    {
+        "name": "SchlagerWaltz",
+        "id": "0x15e0",
+        "category": "Entertainer",
+        "tempo": 178,
+        "sig": "6/4"
+    },
+    {
+        "name": "Sci-FiMarch",
+        "id": "0x1ec",
+        "category": "Movie&Show",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScottishJig",
+        "id": "0xfe1",
+        "category": "Trad&Folk",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScottishPolka",
+        "id": "0x52f",
+        "category": "Trad&Folk",
+        "tempo": 178,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScottishReel",
+        "id": "0x1e7",
+        "category": "Trad&Folk",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScottishStrathspey",
+        "id": "0x1f0",
+        "category": "Trad&Folk",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "ScottishWaltz",
+        "id": "0x7f4",
+        "category": "Trad&Folk",
+        "tempo": 90,
+        "sig": "3/4"
+    },
+    {
+        "name": "SecretService",
+        "id": "0x162c",
+        "category": "Movie&Show",
+        "tempo": 80,
+        "sig": "4/4"
+    },
+    {
+        "name": "SheriffReggae",
+        "id": "0x23a0",
+        "category": "RetroPop",
+        "tempo": 90,
+        "sig": "4/4"
+    },
+    {
+        "name": "SimpleShuffle",
+        "id": "0x551",
+        "category": "Oldies",
+        "tempo": 176,
+        "sig": "4/4"
+    },
+    {
+        "name": "SingalongDanceBand",
+        "id": "0x53d",
+        "category": "Oldies",
+        "tempo": 220,
+        "sig": "4/4"
+    },
+    {
+        "name": "SingalongPiano",
+        "id": "0x1f3",
+        "category": "Oldies",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "SingItDisco",
+        "id": "0x16b3",
+        "category": "RetroPop",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "Sirtaki",
+        "id": "0x1e8",
+        "category": "Trad&Folk",
+        "tempo": 137,
+        "sig": "4/4"
+    },
+    {
+        "name": "Skiffle",
+        "id": "0x1665",
+        "category": "Oldies",
+        "tempo": 188,
+        "sig": "4/4"
+    },
+    {
+        "name": "SkyPop",
+        "id": "0x2132",
+        "category": "Pop",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "Slow'n'Swingin'",
+        "id": "0x16b9",
+        "category": "Dance",
+        "tempo": 117,
+        "sig": "4/4"
+    },
+    {
+        "name": "SlowBlues",
+        "id": "0x1e82",
+        "category": "R&B",
+        "tempo": 49,
+        "sig": "4/4"
+    },
+    {
+        "name": "SlowBossa",
+        "id": "0x162",
+        "category": "Latin",
+        "tempo": 106,
+        "sig": "4/4"
+    },
+    {
+        "name": "SlowFoxtrot1",
+        "id": "0x552",
+        "category": "Ballroom",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "SlowFoxtrot2",
+        "id": "0x522",
+        "category": "Ballroom",
+        "tempo": 116,
+        "sig": "4/4"
+    },
+    {
+        "name": "SlowJazzWaltz",
+        "id": "0xb20",
+        "category": "Jazz",
+        "tempo": 110,
+        "sig": "3/4"
+    },
+    {
+        "name": "SlowWaltz",
+        "id": "0x603",
+        "category": "Ballroom",
+        "tempo": 90,
+        "sig": "3/4"
+    },
+    {
+        "name": "SmoothLatinBallad",
+        "id": "0x2763",
+        "category": "Latin",
+        "tempo": 84,
+        "sig": "4/4"
+    },
+    {
+        "name": "SmoothPopBallad",
+        "id": "0x2023",
+        "category": "Pop",
+        "tempo": 77,
+        "sig": "4/4"
+    },
+    {
+        "name": "SoftSchlager",
+        "id": "0x172a",
+        "category": "Entertainer",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "SongwriterBallad",
+        "id": "0x1610",
+        "category": "Pop",
+        "tempo": 79,
+        "sig": "4/4"
+    },
+    {
+        "name": "SoulBallad",
+        "id": "0x2030",
+        "category": "R&B",
+        "tempo": 60,
+        "sig": "4/4"
+    },
+    {
+        "name": "SoulfulBallad",
+        "id": "0x175b",
+        "category": "Pop",
+        "tempo": 79,
+        "sig": "4/4"
+    },
+    {
+        "name": "SoulShuffle",
+        "id": "0xe74",
+        "category": "R&B",
+        "tempo": 139,
+        "sig": "4/4"
+    },
+    {
+        "name": "SoulSupreme",
+        "id": "0x1682",
+        "category": "R&B",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "SouthernGospel",
+        "id": "0x1c00",
+        "category": "R&B",
+        "tempo": 72,
+        "sig": "3/4"
+    },
+    {
+        "name": "SpanishPaso",
+        "id": "0xde1",
+        "category": "Trad&Folk",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "SpanishRumba",
+        "id": "0x21a6",
+        "category": "Latin",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "StadiumRock",
+        "id": "0x1658",
+        "category": "Rock",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "StandardRock",
+        "id": "0x1647",
+        "category": "Rock",
+        "tempo": 110,
+        "sig": "4/4"
+    },
+    {
+        "name": "StreetBeatbox",
+        "id": "0x200f",
+        "category": "Dance",
+        "tempo": 98,
+        "sig": "4/4"
+    },
+    {
+        "name": "StringAdagio",
+        "id": "0x17ee",
+        "category": "Classic&Events",
+        "tempo": 54,
+        "sig": "4/4"
+    },
+    {
+        "name": "StubnmusiWaltz",
+        "id": "0x7fe",
+        "category": "Trad&Folk",
+        "tempo": 185,
+        "sig": "3/4"
+    },
+    {
+        "name": "Summer8BeatRock",
+        "id": "0x1931",
+        "category": "Rock",
+        "tempo": 126,
+        "sig": "4/4"
+    },
+    {
+        "name": "SunnyReggae",
+        "id": "0x23a2",
+        "category": "RetroPop",
+        "tempo": 83,
+        "sig": "4/4"
+    },
+    {
+        "name": "SuperGroove",
+        "id": "0x2283",
+        "category": "R&B",
+        "tempo": 99,
+        "sig": "4/4"
+    },
+    {
+        "name": "SurfRock",
+        "id": "0x1686",
+        "category": "Oldies",
+        "tempo": 119,
+        "sig": "4/4"
+    },
+    {
+        "name": "Swedish8BeatPop",
+        "id": "0x161d",
+        "category": "RetroPop",
+        "tempo": 123,
+        "sig": "4/4"
+    },
+    {
+        "name": "SwedishPopShuffle",
+        "id": "0x1a62",
+        "category": "RetroPop",
+        "tempo": 146,
+        "sig": "4/4"
+    },
+    {
+        "name": "SweetPop",
+        "id": "0x1738",
+        "category": "Pop",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "SwingFox",
+        "id": "0x521",
+        "category": "Ballroom",
+        "tempo": 192,
+        "sig": "4/4"
+    },
+    {
+        "name": "Swingin'BigBand",
+        "id": "0xf45",
+        "category": "Jazz",
+        "tempo": 200,
+        "sig": "4/4"
+    },
+    {
+        "name": "SwingingMusette",
+        "id": "0x7ff",
+        "category": "Trad&Folk",
+        "tempo": 200,
+        "sig": "3/4"
+    },
+    {
+        "name": "SwingSchlager",
+        "id": "0x1be4",
+        "category": "Entertainer",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "SwingSoul",
+        "id": "0xe03",
+        "category": "R&B",
+        "tempo": 138,
+        "sig": "4/4"
+    },
+    {
+        "name": "SynthPop",
+        "id": "0x2031",
+        "category": "RetroPop",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "SynthPopDuo",
+        "id": "0x16af",
+        "category": "Entertainer",
+        "tempo": 117,
+        "sig": "4/4"
+    },
+    {
+        "name": "Tango1",
+        "id": "0xd81",
+        "category": "Ballroom",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "Tango2",
+        "id": "0xd80",
+        "category": "Ballroom",
+        "tempo": 132,
+        "sig": "4/4"
+    },
+    {
+        "name": "TangoFlamencos",
+        "id": "0x21a8",
+        "category": "Latin",
+        "tempo": 86,
+        "sig": "4/4"
+    },
+    {
+        "name": "TapDanceSwing",
+        "id": "0x527",
+        "category": "Movie&Show",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "Tarantella",
+        "id": "0x5e3",
+        "category": "Trad&Folk",
+        "tempo": 136,
+        "sig": "4/4"
+    },
+    {
+        "name": "TheatreFoxtrot",
+        "id": "0x1be0",
+        "category": "Ballroom",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "TheatreMarch",
+        "id": "0x5c2",
+        "category": "Trad&Folk",
+        "tempo": 124,
+        "sig": "4/4"
+    },
+    {
+        "name": "TheatreOrgBallad",
+        "id": "0xc31",
+        "category": "EasyListening",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "TheatreQuickstep",
+        "id": "0x525",
+        "category": "Ballroom",
+        "tempo": 200,
+        "sig": "4/4"
+    },
+    {
+        "name": "TheatreShowtime",
+        "id": "0xdc5",
+        "category": "Movie&Show",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "Tijuana",
+        "id": "0x580",
+        "category": "EasyListening",
+        "tempo": 200,
+        "sig": "4/4"
+    },
+    {
+        "name": "TopChartCountry",
+        "id": "0x107",
+        "category": "Country",
+        "tempo": 184,
+        "sig": "4/4"
+    },
+    {
+        "name": "TradPianoBallad",
+        "id": "0x52e",
+        "category": "Jazz",
+        "tempo": 54,
+        "sig": "4/4"
+    },
+    {
+        "name": "TradPianoJazz",
+        "id": "0xf31",
+        "category": "Jazz",
+        "tempo": 123,
+        "sig": "4/4"
+    },
+    {
+        "name": "TrancePop",
+        "id": "0x20d1",
+        "category": "Dance",
+        "tempo": 135,
+        "sig": "4/4"
+    },
+    {
+        "name": "TropicalHouse",
+        "id": "0x212f",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "TurkishEuro",
+        "id": "0x16e1",
+        "category": "Dance",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "TV Blockbuster",
+        "id": "0x802",
+        "category": "Movie&Show",
+        "tempo": 169,
+        "sig": "3/4"
+    },
+    {
+        "name": "Twist",
+        "id": "0x1660",
+        "category": "Oldies",
+        "tempo": 166,
+        "sig": "4/4"
+    },
+    {
+        "name": "UnpluggedBallad",
+        "id": "0x175f",
+        "category": "Pop",
+        "tempo": 78,
+        "sig": "4/4"
+    },
+    {
+        "name": "UnpluggedPop",
+        "id": "0x160a",
+        "category": "Pop",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "Uptempo8Beat",
+        "id": "0x461",
+        "category": "RetroPop",
+        "tempo": 129,
+        "sig": "4/4"
+    },
+    {
+        "name": "UpTempoSwing",
+        "id": "0xf38",
+        "category": "Jazz",
+        "tempo": 194,
+        "sig": "4/4"
+    },
+    {
+        "name": "US ClubDance",
+        "id": "0x2122",
+        "category": "Dance",
+        "tempo": 128,
+        "sig": "4/4"
+    },
+    {
+        "name": "US March",
+        "id": "0x1c0",
+        "category": "Classic&Events",
+        "tempo": 122,
+        "sig": "4/4"
+    },
+    {
+        "name": "US RockShuffle",
+        "id": "0x240c",
+        "category": "Rock",
+        "tempo": 83,
+        "sig": "4/4"
+    },
+    {
+        "name": "VienneseWaltz",
+        "id": "0x7e0",
+        "category": "Classic&Events",
+        "tempo": 186,
+        "sig": "3/4"
+    },
+    {
+        "name": "VintageGuitarPop",
+        "id": "0x1601",
+        "category": "Oldies",
+        "tempo": 148,
+        "sig": "4/4"
+    },
+    {
+        "name": "VocalFoxtrot",
+        "id": "0x54d",
+        "category": "Ballroom",
+        "tempo": 120,
+        "sig": "4/4"
+    },
+    {
+        "name": "VocalPopBallad",
+        "id": "0x174c",
+        "category": "Pop",
+        "tempo": 69,
+        "sig": "4/4"
+    },
+    {
+        "name": "VocalWaltz",
+        "id": "0xb28",
+        "category": "Ballroom",
+        "tempo": 90,
+        "sig": "3/4"
+    },
+    {
+        "name": "VolksDance",
+        "id": "0x1f7",
+        "category": "Entertainer",
+        "tempo": 125,
+        "sig": "4/4"
+    },
+    {
+        "name": "VolksSchlager",
+        "id": "0x1932",
+        "category": "Entertainer",
+        "tempo": 127,
+        "sig": "4/4"
+    },
+    {
+        "name": "WestCoastPop",
+        "id": "0x2004",
+        "category": "Pop",
+        "tempo": 100,
+        "sig": "4/4"
+    },
+    {
+        "name": "WildWest",
+        "id": "0x17e6",
+        "category": "Movie&Show",
+        "tempo": 150,
+        "sig": "4/4"
+    },
+    {
+        "name": "Wonder8Beat",
+        "id": "0x1602",
+        "category": "RetroPop",
+        "tempo": 112,
+        "sig": "4/4"
+    },
+    {
+        "name": "Worship6-8",
+        "id": "0x1fe4",
+        "category": "R&B",
+        "tempo": 62,
+        "sig": "4/4"
+    },
+    {
+        "name": "WorshipSlow",
+        "id": "0x162e",
+        "category": "R&B",
+        "tempo": 75,
+        "sig": "4/4"
+    },
+    {
+        "name": "YoungBallad",
+        "id": "0x1730",
+        "category": "Entertainer",
+        "tempo": 94,
+        "sig": "4/4"
+    },
+    {
+        "name": "YoungFox",
+        "id": "0x16b1",
+        "category": "Entertainer",
+        "tempo": 118,
+        "sig": "4/4"
+    },
+    {
+        "name": "ZitherPolka",
+        "id": "0x1f1",
+        "category": "Trad&Folk",
+        "tempo": 114,
+        "sig": "4/4"
+    }
+]
