@@ -16,13 +16,10 @@ from toCamelCase import to_camel_case
 from musicalGlyphes import *
 from constants import KEY_HEADER, KEY_BARS
 
-TEMP_DIR = "temp"
-PDF_DIR = "pdf"
-JSON_FNAME = os.path.join(TEMP_DIR, "score.json")
 MAX_COLS = 10
 MARGIN = 15.0
 
-# Constantes typographiques et musicales (zéro magic word)
+# Constantes typographiques et musicales
 CHAR_SHARP = "\ue10c"
 CHAR_FLAT = "\ue10d"
 CHORD_FONT_SIZE = 14
@@ -152,10 +149,7 @@ class Bar:
         self.__sheet.line(x1, y1, x2, y2)
 
     def draw_string_centered(self, text, font, size, center_x, center_y):
-        """
-        Garantit que le texte est rigoureusement centré sur le point (center_x, center_y)
-        indépendamment de la police et de sa largeur.
-        """
+        """Garantit que le texte est rigoureusement centré sur le point (center_x, center_y)."""
         if self.__sheet is None or not text:
             return
         
@@ -170,9 +164,7 @@ class Bar:
         self.__sheet.drawString(tx, ty, text)
 
     def parse_chord(self, chord_str):
-        """
-        Découpe un accord en (fondamentale, couleur, basse) via une regex.
-        """
+        """Découpe un accord en (fondamentale, couleur, basse) via une regex."""
         if not chord_str:
             return None, None, None
 
@@ -206,7 +198,6 @@ class Bar:
         
         config = GLYPH_CONFIGS.get(tag)
         if not config:
-            # Fallback si le tag est une chaîne brute (ex: "D.C.") non présente dans GLYPH_CONFIGS
             self.write(tag, text_fnt, 10, "se")
             return
         
@@ -216,30 +207,17 @@ class Bar:
         row = config["row"]
         align = config["align"]
 
-        # Détermination de l'ancre en fonction de la ligne (row) et de l'alignement (align)
         if row == "above":
-            if align == "left":
-                anchor = "nw"
-            elif align == "right":
-                anchor = "ne"
-            else:
-                anchor = "n"
+            anchor = "nw" if align == "left" else ("ne" if align == "right" else "n")
         elif row == "inside":
-            if align == "left":
-                anchor = "w"
-            elif align == "right":
-                anchor = "e"
-            else:
-                anchor = "center"
+            anchor = "w" if align == "left" else ("e" if align == "right" else "center")
         else:
             anchor = "center"
 
         self.write(content, font, size, anchor)
 
     def write_chord(self, chord_str, position="center"):
-        """
-        Rendu d'un accord en utilisant le parseur, le formatage des parties et la police text_fnt.
-        """
+        """Rendu d'un accord."""
         if not chord_str:
             return
 
@@ -257,19 +235,14 @@ class Bar:
             center_x = self.__x + (self.__w / 2.0)
             center_y = self.__y + (self.__h / 2.0)
             self.draw_string_centered(display_str, text_fnt, CHORD_FONT_SIZE, center_x, center_y)
-            
         elif position == "top_left":
             center_x = self.__x + (self.__w * 0.25)
             center_y = self.__y + (self.__h * 0.75)
             self.draw_string_centered(display_str, text_fnt, CHORD_FONT_SIZE, center_x, center_y)
-            
         elif position == "bottom_right":
             center_x = self.__x + (self.__w * 0.75)
             center_y = self.__y + (self.__h * 0.25)
             self.draw_string_centered(display_str, text_fnt, CHORD_FONT_SIZE, center_x, center_y)
-
-    def __str__(self):
-        return "%-8u%-8u%-8u%-8u" % (int(self.__x), int(self.__y), int(self.__w), int(self.__h))
 
 class Renderer:
     def __init__(self, score, output_path):
@@ -357,8 +330,6 @@ class Renderer:
 
     def render(self):
         max_cols_found, nb_rows, rows_data = self._calculate_grid(MAX_COLS)
-        print(f"Calcul grille -> Max cols: {max_cols_found}, Lignes calculées: {nb_rows}")
-
         layout_info = self.get_sheet_layout(nb_rows=nb_rows, cols=max_cols_found, header_percent=DEFAULT_HEADER_HIGHT_PERCENT)
         
         if self.score.header and layout_info["header_bar"]:
@@ -367,13 +338,10 @@ class Renderer:
 
             if (title := header.get("title")):
                 h_bar.write(title, text_fnt, 32, "center")
-                
             if (composer := header.get("composer")):
                 h_bar.write(composer, text_fnt, 16, "se")
-                
             if (lyricist := header.get("lyricist")):
                 h_bar.write(lyricist, text_fnt, 16, "ne")
-                
             if (arranger := header.get("arranger")):
                 h_bar.write(arranger, text_fnt, 16, "nw")
 
@@ -402,7 +370,6 @@ class Renderer:
             for measure in row_measures:
                 bar = Bar(x, y, w, h, self.sheet)
                 
-                # Gestion des accords
                 num_chords = len(measure.chords)
                 if num_chords == 1:
                     bar.write_chord(measure.chords[0], "center")
@@ -413,26 +380,20 @@ class Renderer:
                 elif num_chords > 2:
                     bar.write_chord(measure.chords[0], "center")
 
-                # Affichage des éléments additionnels via la table importée GLYPH_CONFIGS
                 if measure.volta:
                     bar.write(f"[{measure.volta}]", text_fnt, 8, "nw")
-                
                 if measure.markers:
                     for marker in measure.markers:
                         bar.render_glyph_tag(marker)
-
                 if measure.sections:
                     for section in measure.sections:
                         section_tag = section if section.startswith("MG_") else f"MG_SECTION_{section}"
                         bar.render_glyph_tag(section_tag)
-
                 if measure.jumps:
                     for jump in measure.jumps:
                         bar.render_glyph_tag(jump)
-
                 if measure.system_texts:
                     bar.write(" ".join(measure.system_texts), text_fnt, 9, "n")
-
                 if measure.timesig:
                     bar.write(measure.timesig, text_fnt, 10, "w")
 
@@ -443,14 +404,8 @@ class Renderer:
         self.sheet.save()
 
 def jsonToPdf(json_fname, pdf_path):
-    # Création automatique du dossier de destination s'il n'existe pas
+    """Fonction modulaire unique : prend un fichier JSON de score et génère le PDF correspondant."""
     os.makedirs(os.path.dirname(os.path.abspath(pdf_path)), exist_ok=True)
-    
     score = Score(json_fname)
     renderer = Renderer(score, pdf_path)
     renderer.render()
-    print(f"PDF généré avec succès : {pdf_path}")
-
-if __name__ == "__main__":
-    pdf_path = os.path.join(PDF_DIR, to_camel_case("test") + ".pdf")
-    jsonToPdf(JSON_FNAME, pdf_path)

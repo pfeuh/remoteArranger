@@ -5,59 +5,44 @@ import os
 import json
 import shutil
 from pathlib import Path
-import tkinter as tk
-from tkinter import filedialog
 import xml.etree.ElementTree as ET
 import zipfile
 
 # Import des modèles partagés et des constantes pour garantir l'unicité des clés JSON
 from models import Header, Bar
 from constants import KEY_HEADER, KEY_BARS
-
-# Assurez-vous que musicalGlyphes est accessible
 from musicalGlyphes import ITEMS, MG_LINE_BREAK, MG_REPEAT1, MG_REPEAT2
 
 BASE_DIR = Path(__file__).resolve().parent
-CONFIG_FILE = BASE_DIR / "lastFile.json"
 TEMP_DIR = BASE_DIR / "temp"
-SCORES_DIR = BASE_DIR / "scores"
-JSON_FNAME = TEMP_DIR / "score.json"
-PDF_DIR = BASE_DIR / "../pdf"
-
-# le score parsé est toujours score.json dans TEMP_DIR
-# le pdf est toujours sauvé dans PDF_DIR
-
-CR = '\n'
 
 TPC_NOTES = {
     -1: "Fbb",  0: "Cbb",  1: "Gbb",  2: "Dbb",  3: "Abb",  4: "Ebb",  5: "Bbb",
-     6: "Fb",   7: "Cb",   8: "Gb",   9: "Db",   10: "Ab",  11: "Eb",  12: "Bb",
-     13: "F",   14: "C",   15: "G",   16: "D",   17: "A",   18: "E",   19: "B",
-     20: "F#",  21: "C#",  22: "G#",  23: "D#",  24: "A#",  25: "E#",  26: "B#",
-     27: "F##", 28: "C##", 29: "G##", 30: "D##", 31: "A##", 32: "E##", 33: "B##"
+    6: "Fb",   7: "Cb",   8: "Gb",   9: "Db",   10: "Ab",  11: "Eb",  12: "Bb",
+    13: "F",   14: "C",   15: "G",   16: "D",   17: "A",   18: "E",   19: "B",
+    20: "F#",  21: "C#",  22: "G#",  23: "D#",  24: "A#",  25: "E#",  26: "B#",
+    27: "F##", 28: "C##", 29: "G##", 30: "D##", 31: "A##", 32: "E##", 33: "B##"
 }
 
-def get_initial_dir():
-    if CONFIG_FILE.exists():
-        try:
-            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                last_path = Path(data.get("last_file", ""))
-                if last_path.parent.exists(): return str(last_path.parent)
-        except: pass
-    return str(SCORES_DIR) if SCORES_DIR.exists() else str(BASE_DIR)
-
-def save_last_file(file_path):
-    with open(CONFIG_FILE, "w", encoding="utf-8") as f:
-        json.dump({"last_file": str(file_path)}, f, indent=4)
-
-def extract_mscz(mscz_path, extract_to):
-    if extract_to.exists(): shutil.rmtree(extract_to)
+def _extract_mscz(mscz_path, extract_to):
+    if extract_to.exists(): 
+        shutil.rmtree(extract_to)
     extract_to.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(mscz_path, "r") as zip_ref:
         zip_ref.extractall(extract_to)
 
-def parse_mscx(score_name):
+def getGrid(mscz_path):
+    """
+    Fonction modulaire unique : prend le chemin d'un fichier .mscz, 
+    gère le dézippage, le parsing XML, la propagation des durées d'accords,
+    et retourne le dictionnaire complet compatible avec gridEditor.
+    """
+    mscz_path = Path(mscz_path)
+    if not mscz_path.exists():
+        raise FileNotFoundError(f"Fichier MuseScore introuvable : {mscz_path}")
+
+    _extract_mscz(mscz_path, TEMP_DIR)
+
     # Recherche dynamique du fichier .mscx extrait dans TEMP_DIR
     mscx_files = list(TEMP_DIR.glob("*.mscx"))
     if not mscx_files:
@@ -68,21 +53,30 @@ def parse_mscx(score_name):
     root_elem = tree.getroot()
     
     # Header
-    title = next((t.findtext("text") for t in root_elem.iter("Text") if t.findtext("style") == "title"), score_name)
+    title = next((t.findtext("text") for t in root_elem.iter("Text") if t.findtext("style") == "title"), mscz_path.stem)
     header = Header(
         title=title, 
         subtitle=root_elem.findtext(".//Text[style='subtitle']/text", ""),
-        composer=root_elem.findtext(".//Text[style='composer']/text", ""),
+        composer=root_elem.findtext(".//Text[style='composer']/text", "Inconnu"),
         lyricist=root_elem.findtext(".//Text[style='poet']/text", ""),
         arranger=root_elem.findtext(".//Text[style='arranger']/text", "")
     )
     
+    # Détection de la signature rythmique globale
+    global_timesig = "4/4"
+    for ts in root_elem.iter("TimeSig"):
+        z = ts.findtext("sigN")
+        n = ts.findtext("sigD")
+        if z and n:
+            global_timesig = f"{z}/{n}"
+            break
+
     bars = []
-    # Correction : On parcourt directement les mesures à la racine du score
+    last_chord = []  # Mémorisation des accords de la mesure précédente pour assurer la durée
+
     for i, measure in enumerate(root_elem.iter("Measure"), 1):
         chords, system_texts, barlines, markers, sections, jumps = [], [], [], [], [], []
         
-        # Helper pour extraire et ajouter un accord
         def process_harmony(h_elem):
             hi = h_elem.find("harmonyInfo")
             if hi is not None:
@@ -96,15 +90,21 @@ def parse_mscx(score_name):
                 
                 chords.append(f"{root_note}{suffix}{bass_note}")
 
-        # Accords
+        # Extraction des accords de la mesure courante
         for h in measure.iter("Harmony"):
             process_harmony(h)
+
+        # Propagation des accords sur les mesures vides (gestion de la durée)
+        if chords:
+            last_chord = chords
+        elif last_chord:
+            chords = list(last_chord)
 
         # Textes (Portée et système)
         for t in measure.iter("StaffText"):
             system_texts.append(t.findtext("text") or "".join(t.itertext()))
 
-        # Markers (ex: Coda, Segno, Rehearsal marks)
+        # Markers
         for m in measure.iter("Marker"):
             subtype = m.findtext("subtype")
             mapped = None
@@ -138,7 +138,7 @@ def parse_mscx(score_name):
                     mapped = ITEMS.get(txt_clean, ITEMS.get(txt_clean.lower(), txt_clean))
                     markers.append(mapped)
 
-        # Jumps (ex: Da Capo, Dal Segno)
+        # Jumps
         for j in measure.iter("Jump"):
             mapped = None
             subtype = j.findtext("subtype")
@@ -169,16 +169,6 @@ def parse_mscx(score_name):
                 jumps.append(mapped)
             elif subtype:
                 jumps.append(subtype.strip())
-            else:
-                jump_to = j.findtext("jumpTo")
-                if jump_to:
-                    jt_clean = jump_to.strip().lower()
-                    if jt_clean == "start":
-                        jumps.append("D.C.")
-                    elif jt_clean == "segno":
-                        jumps.append("D.S.")
-                    else:
-                        jumps.append(jump_to.strip())
 
         # Barlines
         for bl in measure.iter("BarLine"):
@@ -186,7 +176,7 @@ def parse_mscx(score_name):
             if subtype:
                 barlines.append(subtype)
 
-        # Time Signature (Chiffrage de mesure)
+        # Time Signature
         timesig = ""
         ts_elem = measure.find(".//TimeSig")
         if ts_elem is not None:
@@ -195,10 +185,7 @@ def parse_mscx(score_name):
             if z and n:
                 timesig = f"{z}/{n}"
 
-        # Volta
         volta = measure.findtext(".//volta", "")
-
-        # Layout / Reprises / Saut de ligne
         has_lb = measure.find(".//LayoutBreak/subtype") is not None or measure.get("repeatStart") == "1"
         
         bars.append(Bar(
@@ -214,45 +201,13 @@ def parse_mscx(score_name):
             timesig=timesig
         ))
 
-    # Sauvegarde JSON propre via les clés standardisées
-    with open(JSON_FNAME, "w", encoding="utf-8") as f:
-        json.dump({
-            KEY_HEADER: header.to_dict(), 
-            KEY_BARS: [b.to_dict() for b in bars]
-        }, f, ensure_ascii=False, indent=4)
+    header_data = header.to_dict()
+    header_data["style"] = "StandardRock"
+    header_data["category"] = "Pop & Rock"
+    header_data["bpm"] = 110.0
+    header_data["timesig"] = global_timesig
 
-def selectMsczFname():
-    root = tk.Tk(); root.withdraw()
-    path = filedialog.askopenfilename(initialdir=get_initial_dir(), filetypes=[("MuseScore Files", "*.mscz"), ("All Files", "*.*")])
-    if path:
-        mscz_path = Path(path)
-        save_last_file(mscz_path)
-        extract_mscz(mscz_path, TEMP_DIR)
-        parse_mscx(mscz_path.stem)
-        return True
-    else:
-        return False
-        
-def getOutputPdfFname():
-    if CONFIG_FILE.exists():
-        try:
-            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                fullname = data.get("last_file", "")
-                filename_ext = os.path.basename(fullname)
-                filename = os.path.splitext(filename_ext)[0]
-                pdf_fname = os.path.join(PDF_DIR, filename + ".pdf")
-                return pdf_fname
-        except:
-            pass
-    return ""
-
-def getJsonFname():
-    return JSON_FNAME
-
-if __name__ == "__main__":
-    if selectMsczFname():
-        print("json généré:%s"%getJsonFname())
-        print("pdf de sortie:%s"%getOutputPdfFname())
-    else:
-        print("abort")
+    return {
+        KEY_HEADER: header_data, 
+        KEY_BARS: [b.to_dict() for b in bars]
+    }
